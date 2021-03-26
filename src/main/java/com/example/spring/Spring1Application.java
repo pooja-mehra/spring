@@ -13,13 +13,13 @@ public class Spring1Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Spring1Application.class, args);
-	}
-	@Bean
-	public String startMain() {
-		return "Start Main";
+		/*Spring1Entity user1 = new Spring1Entity(2,"pooja",35);
+		Spring1CRUD user1Trans = new Spring1CRUD();
+		user1Trans.save(user1);
+		user1.addQuery()*/
 	}
 	
-	@Bean 
+	/*@Bean 
 	public CommandLineRunner commandLineRunner( ApplicationContext ctx) {
 		return args ->{
 			System.out.println("Beans provided by SpringBoot:");
@@ -29,6 +29,6 @@ public class Spring1Application {
 				System.out.println(beanName);
 			}
 		};
-	}
+	}*/
 
 }
